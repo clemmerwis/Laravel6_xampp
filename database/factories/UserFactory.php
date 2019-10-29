@@ -17,6 +17,8 @@ use Illuminate\Support\Str;
 */
 
 $factory->define(User::class, function (Faker $faker) {
+    $max = DB::table('users')->max('id') + 1; 
+    DB::statement("ALTER TABLE users AUTO_INCREMENT =  $max");
     return [
         'name' => $faker->name,
         'email' => $faker->unique()->safeEmail,
