@@ -14,3 +14,7 @@ Laravel:
 5. composer update, composer install, php artisan cache:clear, php artisan config:cache
 
 6. npm install, npm run dev
+
+Errors:
+1. artisan ansi error = composer require symfony/console:4.3.4
+2. Too many characters error =  https://laravel-news.com/laravel-5-4-key-too-long-error
