@@ -8,8 +8,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    <link rel="stylesheet" href="{{ public_path('css/styles.css') }}">
+
         <!-- Styles -->
+        <link rel="stylesheet" href="{{ public_path('css/styles.css') }}">
         <style>
             html, body {
                 background-color: #fff;
@@ -77,6 +78,8 @@
                         @endif
                     @endauth
                 </div>
+            @else
+                <div class="top-right"><a href="{{ route('home') }}">Home</a></div>
             @endif
 
             <div class="content">
