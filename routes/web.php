@@ -11,4 +11,4 @@
 |
 */
 
-Route::view('/', 'welcome')->name('home');
+Route::get('/', 'WelcomeController@index')->name('home');
