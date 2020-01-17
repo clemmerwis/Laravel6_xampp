@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'WelcomeController@index')->name('home');
+
+Route::get('/rent', 'ReservationsController@index')->name('reservation');
