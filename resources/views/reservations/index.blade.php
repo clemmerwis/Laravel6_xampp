@@ -85,7 +85,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">{{ config('app.name') }}</div>
+                <div class="title m-b-md">Vehicles Available for Rent</div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
